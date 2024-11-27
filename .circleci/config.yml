@@ -30,8 +30,8 @@ jobs:
           command: mvn -Dtest=Calculadora* test
 
       - run:
-          name: Testing
-          command: echo "Testing"
+          name: Messahe
+          command: echo "Test superados"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
